@@ -1,0 +1,27 @@
+.post {
+  border: 2px solid rgb(188, 207, 248);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.post:hover {
+  box-shadow: 2px 2px 2px rgb(186, 220, 235);
+}
+.body {
+  background-color: rgb(231, 250, 244);
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+}
+.title {
+  font-size: large;
+  background-color: rgb(244, 245, 244);
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 390) {
+  h3 {
+    font-size: 0.2rem;
+  }
+}
